@@ -5,9 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
     <title>Dev Finance</title>
 </head>
 <body>
+    <header><img src="../assets/logo.svg" alt="logo do finances"></header>
+    <main>
+        <section id="card-container">
+            <div class="card saldo">
+                <div class="title">
+                    <img src="../assets/coin.svg" alt="icone de dinheiro">
+                    <h3>Saldo</h3>
+                </div>
+                <p>R$ 00,00</p>
+            </div>
+            <div class="card entrada">
+                <div class="title">
+                    <img src="../assets/Up.svg" alt="icone seta para cima">
+                    <h3>Entrada</h3>
+                </div>
+                <p>R$ 00,00</p>
+            </div>
+            <div class="card saida">
+                <div class="title">
+                    <img src="../assets/down.svg" alt="icone seta para baixo">
+                    <h3>Saída</h3>
+                </div>
+                <p>R$ 00,00</p>
+            </div>
+        </section>
+        <section id="btn-container">
+            <div id="btn-group">
+                <div class="btn on">
+                    <img src="../assets/iconelista.svg" alt="icone lista">
+                </div>
+                <div class="btn">
+                    <img src="../assets/graficocoluna.svg" alt="icone grafico de colunas">
+                </div>
+                <div class="btn">
+                    <img src="../assets/graficopizza.svg" alt="icone grafico de area">
+                </div>
+            </div>
+            <button id="add" onclick="clicou()">+ Adicionar</button>
+        </section>
+        <!-- TABELA -->
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Tag</th>
+                <th>Valor</th>
+                <th>:)</th>
+            </tr>
+            <tr>
+                <td>Coquinha</td>
+                <td>Alimentação</td>
+                <td>+R$3,00</td>
+                <td>🗑</td>
+            </tr>
+            <tr>
+                <td>Coquinha</td>
+                <td>Alimentação</td>
+                <td>+R$3,00</td>
+                <td>🗑</td>
+            </tr>
+        </table>
+    </main>
     
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

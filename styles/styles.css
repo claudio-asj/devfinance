@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5FFF2;
+
+}
+
+
+/* ===== Header ===== */
+header {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    height: 7vh;
+}
+
+/* ===== cards ===== */
+#card-container {
+    padding:2vh 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 3vh 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border-radius: 15px;
+}
+.card .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .title h3 {
+    font-size: 30px;
+}
+.card p {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5vh;
+}
+.card img {
+    width: 5vh;
+}
+
+/* ===== btns ===== */
+
+#btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4vh;
+}
+#btn-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.btn {
+    background-color: red;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 0.5%;
+}
+.btn img {
+    width: 70%;
+    height: 70%;
+}
+
+#add {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3vh;
+}
+
+/* ===== Tabela ===== */
+table {
+    padding: 0 10%;
+    text-align: left;
+    margin: 3px auto;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: rgb(76, 76, 76);
+    color: #fff;
+    padding: 5px;
+    min-width: 7vw;
+}
+
+table td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}

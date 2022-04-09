@@ -1,0 +1,12 @@
+{
+    "db": [{
+        "name": "Coquinha",
+        "tag": "Alimentação",
+        "value": 3.00
+    },{
+        "name": "Monster",
+        "tag": "Alimentação",
+        "value": 6.00
+    }
+    ]
+}
